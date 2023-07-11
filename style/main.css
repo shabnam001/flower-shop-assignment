@@ -63,13 +63,12 @@ header{
 .banner-image {
     width: 500px;
 }
-
+/* features related style */
 .features-container{
     text-align: center;
-    font-family: sans-serif;
-    text-decoration: underline;
     display: flex;
     justify-content: space-around;
+    margin:  0 240px;
 }
 
 .features-box{
@@ -95,4 +94,21 @@ header{
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+/* service related style */
+.service-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin:  0 240px;
+    padding: 82px 0;
+}
+.service-title{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
