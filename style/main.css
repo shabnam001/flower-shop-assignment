@@ -1,7 +1,7 @@
 /* shared common styles*/
 *{
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;    margin: 0;
+    margin: 0;
     padding: 0;
 }
 .text-primary{
@@ -15,7 +15,10 @@
     font-weight: 700;
     color: white;
     padding: 20px 43px;
-} 
+}
+section{
+    margin: 128px 0;
+}
 .section-title{
     color: #272727;
     text-align: center;
@@ -28,6 +31,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin: 24px 500px;
 }
 
 /* header related style */
@@ -58,4 +62,37 @@ header{
 }
 .banner-image {
     width: 500px;
+}
+
+.features-container{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-box{
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
+}
+.one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.features-title{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
