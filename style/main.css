@@ -1,7 +1,7 @@
 /* shared common styles*/
 *{
-    font-family:'Open Sans', sans-serif;
-    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;    margin: 0;
     padding: 0;
 }
 .text-primary{
@@ -54,6 +54,7 @@ header{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin: 32px 0;
 }
 .banner-image {
     width: 500px;
