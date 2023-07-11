@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    width: 1920px;
+}
 .text-primary{
     color: #E55473;
 }
@@ -39,7 +42,7 @@ header{
     background: rgba(229, 84, 115, 0.10);
 }
 .banner{
-    padding: 30px 30px 0px 150px;
+    margin:  0 240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,22 +64,21 @@ header{
     margin: 32px 0;
 }
 .banner-image {
-    width: 500px;
+    width: 635px;
+    height: 800px;
 }
 /* features related style */
 .features-container{
-    text-align: center;
     display: flex;
-    justify-content: space-around;
-    margin:  0 240px;
+    gap: 24px;
+    margin: 0 240px;
 }
 
 .features-box{
-    width: 350px;
-    height: 400px;
+    width: 464px;
+    height: 538px;
     padding: 50px 30px 0px 30px;
     border-radius: 300px 300px 0px 0px;
-    margin-bottom: 20px;
 }
 .one{
     background: rgba(167, 33, 98, 0.15);
