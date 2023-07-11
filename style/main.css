@@ -133,3 +133,17 @@ header{
     height: 340px;
     width: 260px;
 }
+
+/* insta related style */
+.insta-container{
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin:  0 240px;
+    padding: 82px 0;
+}
+.insta-box{
+    width: 342px;
+height: 396px;
+}
