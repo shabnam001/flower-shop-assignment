@@ -151,7 +151,7 @@ header{
 .insta-container{
     text-align: center;
     display: flex;
-    gap: 15px;
+    gap: 24px;
     align-items: center;
     margin:  0 240px;
     padding: 82px 0;
@@ -163,23 +163,23 @@ header{
 
 
 /* deal related style */
-.deal-container{
+.deal-container {
 
     text-align: center;
     display: flex;
     align-items: center;
-    margin:  0 240px;
-    padding: 82px 0;
+    margin: 0px 224px;
+    padding: 64px 0;
 }
 .deal{
-    margin:  0 128px;
+    margin: 0 240px;
     padding: 128px;
     border-radius: 8px;
     background: url('../images/deal.png');
     background-repeat: no-repeat;
 }
 .email {
-    display: block; 
+    display: block;
     border: none;
     border-radius: 5px;
     padding: 22px 35px;
